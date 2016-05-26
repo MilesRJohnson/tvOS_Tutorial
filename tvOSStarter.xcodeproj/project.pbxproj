@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A134E7F1C61339100192DA0 /* Questions+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A134E7D1C61339100192DA0 /* Questions+CoreDataProperties.swift */; };
+		5A134E801C61339100192DA0 /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A134E7E1C61339100192DA0 /* Questions.swift */; };
 		5AEB7AC91C5FA3FE00D6D1CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEB7AC81C5FA3FE00D6D1CE /* AppDelegate.swift */; };
 		5AEB7ACB1C5FA3FE00D6D1CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEB7ACA1C5FA3FE00D6D1CE /* ViewController.swift */; };
 		5AEB7ACE1C5FA3FE00D6D1CE /* tvOSStarter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5AEB7ACC1C5FA3FE00D6D1CE /* tvOSStarter.xcdatamodeld */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5A134E7D1C61339100192DA0 /* Questions+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Questions+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		5A134E7E1C61339100192DA0 /* Questions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
 		5AEB7AC51C5FA3FE00D6D1CE /* tvOSStarter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tvOSStarter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AEB7AC81C5FA3FE00D6D1CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5AEB7ACA1C5FA3FE00D6D1CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +60,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A134E821C61357100192DA0 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				5AEB7ACC1C5FA3FE00D6D1CE /* tvOSStarter.xcdatamodeld */,
+				5A134E7E1C61339100192DA0 /* Questions.swift */,
+				5A134E7D1C61339100192DA0 /* Questions+CoreDataProperties.swift */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
 		5AEB7ABC1C5FA3FE00D6D1CE = {
 			isa = PBXGroup;
 			children = (
@@ -82,7 +96,7 @@
 				5AEB7ACF1C5FA3FE00D6D1CE /* Main.storyboard */,
 				5AEB7AD21C5FA3FE00D6D1CE /* Assets.xcassets */,
 				5AEB7AD41C5FA3FE00D6D1CE /* Info.plist */,
-				5AEB7ACC1C5FA3FE00D6D1CE /* tvOSStarter.xcdatamodeld */,
+				5A134E821C61357100192DA0 /* Data */,
 			);
 			path = tvOSStarter;
 			sourceTree = "<group>";
@@ -199,6 +213,8 @@
 				5AEB7ACE1C5FA3FE00D6D1CE /* tvOSStarter.xcdatamodeld in Sources */,
 				5AEB7ACB1C5FA3FE00D6D1CE /* ViewController.swift in Sources */,
 				5AEB7AC91C5FA3FE00D6D1CE /* AppDelegate.swift in Sources */,
+				5A134E801C61339100192DA0 /* Questions.swift in Sources */,
+				5A134E7F1C61339100192DA0 /* Questions+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +396,7 @@
 				5AEB7AE41C5FA3FE00D6D1CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5AEB7AE51C5FA3FE00D6D1CE /* Build configuration list for PBXNativeTarget "tvOSStarterTests" */ = {
 			isa = XCConfigurationList;
@@ -388,6 +405,7 @@
 				5AEB7AE71C5FA3FE00D6D1CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
